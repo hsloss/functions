@@ -11,11 +11,11 @@ Test this function by hand in the console to get it working, and when you think 
 function sum(a, b) { //eslint-disable-line
   function sum(a,b) {
     let sumNumber = a + b 
-    return 'The sum of ' + a + ' and ' + b + ' is ' + sumNumber + '.'
+    let finalstatement = 'The sum of ' + a + ' and ' + b + ' is ' + sumNumber + '.'
+    return [sumNumber, finalstatement]
 }
-
 // Here is the test for sum(); uncomment it to run it
-// testSum(4, 7);
+testSum(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -122,7 +122,7 @@ var testDynamicArray = [1,2,3,4,5]; //eslint-disable-line
 
 function multiplyAnyArray(dynamicArray) { //eslint-disable-line
 
-}
+}}
 
 // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyAnyArray(testDynamicArray);
